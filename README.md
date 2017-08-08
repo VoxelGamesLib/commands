@@ -29,6 +29,8 @@ ARTIFACTID varies by platform target:
  * [Sponge](https://www.spongepowered.org/): ***acf-sponge***
  * [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/): ***acf-bungee*** 
  
+ **VGL FORK**: Suffix -vgl, e.g. ***acf-core-vgl***, ***acf-bukkit-vgl***. Available in the indices.io repository: https://nexus.indices.io/content/repositories/snapshots/
+ 
 You may include more than 1 platform in your jar if your plugin supports multiple platforms.
     
 Any bump in version implies an API break. See [CHANGELOG](CHANGELOG.md) for information on migration guides for API breaks.
