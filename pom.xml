@@ -36,11 +36,11 @@
 
     <distributionManagement>
         <repository>
-            <id>vgl</id>
+            <id>indices-releases</id>
             <url>https://nexus.indices.io/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>vgl</id>
+            <id>indices-snapshots</id>
             <url>https://nexus.indices.io/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
