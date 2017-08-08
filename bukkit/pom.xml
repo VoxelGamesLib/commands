@@ -29,12 +29,12 @@
 
     <parent>
         <groupId>co.aikar</groupId>
-        <artifactId>acf-parent</artifactId>
+        <artifactId>acf-parent-vgl</artifactId>
         <version><!--VERSION-->0.5.0-SNAPSHOT<!--VERSION--></version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>acf-bukkit</artifactId>
+    <artifactId>acf-bukkit-vgl</artifactId>
     <version><!--VERSION-->0.5.0-SNAPSHOT<!--VERSION--></version>
 
     <name>ACF (Bukkit)</name>
@@ -42,7 +42,7 @@
     <dependencies>
         <dependency>
             <groupId>co.aikar</groupId>
-            <artifactId>acf-core</artifactId>
+            <artifactId>acf-core-vgl</artifactId>
             <version><!--VERSION-->0.5.0-SNAPSHOT<!--VERSION--></version>
             <scope>compile</scope>
         </dependency>

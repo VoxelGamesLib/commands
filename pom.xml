@@ -24,7 +24,7 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>co.aikar</groupId>
-    <artifactId>acf-parent</artifactId>
+    <artifactId>acf-parent-vgl</artifactId>
     <version><!--VERSION-->0.5.0-SNAPSHOT<!--VERSION--></version>
     <packaging>pom</packaging>
     <name>ACF (All)</name>
@@ -36,12 +36,12 @@
 
     <distributionManagement>
         <repository>
-            <id>aikar</id>
-            <url>http://ci.emc.gs/nexus/content/repositories/aikar-release/</url>
+            <id>vgl</id>
+            <url>https://nexus.indices.io/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>aikar</id>
-            <url>http://ci.emc.gs/nexus/content/repositories/aikar-snapshots/</url>
+            <id>vgl</id>
+            <url>https://nexus.indices.io/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -123,8 +123,8 @@
     <modules>
         <module>core</module>
         <module>bukkit</module>
-        <module>paper</module>
-        <module>bungee</module>
-        <module>sponge</module>
+        <!--<module>paper</module>-->
+        <!--<module>bungee</module>-->
+        <!--<module>sponge</module>-->
     </modules>
 </project>
