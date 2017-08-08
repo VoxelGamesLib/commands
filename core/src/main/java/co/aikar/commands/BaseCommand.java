@@ -512,7 +512,7 @@ public abstract class BaseCommand {
         return false;
     }
 
-    CommandHelp getCommandHelp(){
+    public CommandHelp getCommandHelp(){
        return manager.getHelp(this.getExecCommandLabel());
     }
 

@@ -33,7 +33,7 @@ public class BukkitCommandHelp extends CommandHelp {
     }
 
     @Override
-    void renderHelp(CommandIssuer issuer) {
+    public void renderHelp(CommandIssuer issuer) {
         List<String> rendered = new ArrayList<>();
         getCommandHelp().forEach(h -> rendered.add("/" + h.getCommand() + " " + h.getSyntax() + ((h.getHelpText() != null && !h.getHelpText().isEmpty() ? " - " + h.getHelpText() : ""))));
         rendered.forEach(issuer::sendMessage);

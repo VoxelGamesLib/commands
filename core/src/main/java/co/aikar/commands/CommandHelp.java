@@ -34,10 +34,10 @@ public abstract class CommandHelp {
         this.command = command;
     }
 
-    abstract void renderHelp(CommandIssuer issuer);
+    public abstract void renderHelp(CommandIssuer issuer);
 
 
-    Collection<HelpEntry> getCommandHelp() {
+    public Collection<HelpEntry> getCommandHelp() {
         SetMultimap<String, RegisteredCommand> subCommands = command.subCommands;
         Set<HelpEntry> help = new HashSet<>();
         List<String> used = new ArrayList<>();
